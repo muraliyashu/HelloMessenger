@@ -23,6 +23,7 @@ public class Splash_Screen extends AppCompatActivity
     private FirebaseAuth firebaseAuth;
     final sqlite_database db = new sqlite_database(Splash_Screen.this);
     long Delay = 2000;
+    String Splash = "Splash";
     private ArrayList<String> numbers = new ArrayList<String>();
     private ArrayList<String> displayNames = new ArrayList<String>();
 
