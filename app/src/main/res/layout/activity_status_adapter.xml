@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.muraliyashu.hellomessenger.statusAdapter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profilepic"
+            android:layout_marginRight="5dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <ProgressBar
+            android:layout_marginRight="5dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:theme="@style/NoActionBarTheme"
+            android:id="@+id/rotate"/></RelativeLayout>
+    <TextView
+        android:text="checking the layout"
+        android:id="@+id/onlineName"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:id="@+id/onlineImage"
+            android:src="@drawable/online"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center"
+            android:layout_height="20dp" />
+
+    </LinearLayout>
+</RelativeLayout>

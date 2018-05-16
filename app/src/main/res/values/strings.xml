@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hello Messenger</string>
+    <string name="title_activity_tabbed">Hello Messenger</string>
+    <string name="action_settings">Logout</string>
+    <string name="action_profile">Profile</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

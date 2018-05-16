@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c2dfe5"
+    tools:context="com.muraliyashu.hellomessenger.chat_room">
+
+        <ListView
+            android:id="@+id/conversation"
+            android:layout_width="wrap_content"
+            android:layout_above="@+id/editchat"
+            android:layout_margin="10dp"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:stackFromBottom="true"
+            android:layout_height="wrap_content" />
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/vertical"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_alignBottom="@+id/addchat"
+            android:layout_toLeftOf="@+id/sendImage"
+            android:layout_marginLeft="5dp"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:hint="Type a message"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp"
+            android:background="@drawable/edittext"
+            android:id="@+id/editchat"
+            android:minHeight="42dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/image"
+            android:layout_alignParentBottom="true"
+            android:layout_alignBottom="@+id/addchat"
+            android:layout_toLeftOf="@+id/addchat"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:imeOptions="actionSend|flagNoEnterAction"
+            android:id="@+id/sendImage"/>
+
+        <!--<Button
+            android:layout_width="60dp"
+            android:text="Send"
+            android:id="@+id/addchat"
+            android:layout_alignParentBottom="true"
+            android:textSize="15sp"
+            android:layout_alignParentEnd="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/back"
+            android:layout_height="40dp" />-->
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/addchat"
+            android:layout_alignParentBottom="true"
+            android:textSize="15sp"
+            android:layout_alignParentEnd="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/send"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/back"
+            android:layout_height="40dp" />
+
+    <!--</LinearLayout>-->
+
+</RelativeLayout>

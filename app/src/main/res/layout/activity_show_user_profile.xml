@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    tools:context="com.muraliyashu.hellomessenger.show_user_profile">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ProgressBar
+        android:id="@+id/rotate"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="#ffffff"
+        android:paddingBottom="20dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/profilepic">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Murali Prabhakar"
+            android:textColor="#1f5b49"
+            android:textSize="22dp"
+            android:id="@+id/contactName"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Online"
+            android:id="@+id/onlineStatus"
+            android:textColor="#000000"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="About and phone number"
+            android:textColor="#1f5b49"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/statusID"
+                android:text="Hey, i am using whatsapp"
+                android:textColor="#000000"
+                android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/numberID"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="+91 9632157795"
+            android:textColor="#000000"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

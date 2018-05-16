@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/chat_icon"/>
+
+    <!--<ProgressBar
+        android:id="@+id/ProgressBar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="174dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+    </ProgressBar>-->
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Initializing, Please wait..."
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:id="@+id/heading"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@+id/heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+
+
+</RelativeLayout>
+

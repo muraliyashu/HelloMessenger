@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            android:layout_margin="10dp"
+            android:theme="@style/NoActionBarTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center|left"
+            android:id="@+id/textView9"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:text="Loading data. Please wait..." />
+
+        <TextView
+            android:gravity="center|left"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:text="Please connect with 4G data for loading faster" />
+        </LinearLayout>
+</LinearLayout>

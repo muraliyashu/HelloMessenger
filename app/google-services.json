@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "319987658621",
+    "firebase_url": "https://hellomessenger-ce193.firebaseio.com",
+    "project_id": "hellomessenger-ce193",
+    "storage_bucket": "hellomessenger-ce193.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319987658621:android:09cc06ec2ca58721",
+        "android_client_info": {
+          "package_name": "com.muraliyashu.hellomessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319987658621-ijtrltg0pfbm5dhjct34gu3d0qukjiks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muraliyashu.hellomessenger",
+            "certificate_hash": "4a3a7548c52b684256ff912b9eb3a186d2e52775"
+          }
+        },
+        {
+          "client_id": "319987658621-75tb7qa5lp39n5t2ss9evoaj05hn5400.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArU0wJi_b1aSMI6gtSVbLo6JLQq7O1emo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319987658621-75tb7qa5lp39n5t2ss9evoaj05hn5400.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

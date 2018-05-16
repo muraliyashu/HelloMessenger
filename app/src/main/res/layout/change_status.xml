@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:id="@+id/number">
+
+        <EditText
+            android:id="@+id/oldStatus"
+            android:hint="Type your status here"
+            android:inputType="textPersonName"
+            android:maxLength="140"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:imeOptions="actionDone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/charsLeft"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/number"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="0dp"
+            android:background="#1f5b49"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:text="Cancel"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="#1f5b49"
+            android:textColor="#ffffff"
+            android:layout_width="0dp"
+            android:text="Update"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+
